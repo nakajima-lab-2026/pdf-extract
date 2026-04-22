@@ -1,0 +1,3 @@
+`import { $imports } from "zod"` where {
+	register_diagnostic(span=$imports, message="Use namespace import: import * as z from 'zod'", severity="error")
+}
